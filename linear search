@@ -1,0 +1,14 @@
+items=["1","2","3","4","5"]
+itf=input()
+found=False
+index=0
+while found==False and len(items)>index:
+    if items[index]==itf:
+        found=True
+    else:
+        index=index+1
+    
+if found==True:
+    print("item found at",index)
+else:
+    print("item not found")
